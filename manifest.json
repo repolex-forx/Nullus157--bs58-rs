@@ -40,6 +40,98 @@
       ],
       "ast": [
         "aggregate/ast/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "sha2",
+          "ecosystem": "CARGO",
+          "version": "0.10",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "smallvec",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "smallvec",
+          "githubRepo": "smallvec",
+          "githubUrl": "https://github.com/smallvec/smallvec",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tinyvec",
+          "ecosystem": "CARGO",
+          "version": "1.6.0",
+          "githubOrg": "Lokathor",
+          "githubRepo": "tinyvec",
+          "githubCommit": "6e326cc48208229d1f28abf74a3e06944c8f7bec",
+          "githubTag": "v1.6.0",
+          "githubUrl": "https://github.com/Lokathor/tinyvec",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "criterion",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "criterion-rs",
+          "githubRepo": "criterion.rs",
+          "githubUrl": "https://github.com/criterion-rs/criterion.rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "base58",
+          "ecosystem": "CARGO",
+          "version": "0.1.0",
+          "githubOrg": "debris",
+          "githubRepo": "base58",
+          "githubUrl": "https://github.com/debris/base58",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rust-base58",
+          "ecosystem": "CARGO",
+          "version": "0.0.4",
+          "githubOrg": "nham",
+          "githubRepo": "rust-base58",
+          "githubUrl": "https://github.com/nham/rust-base58",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "assert_matches",
+          "ecosystem": "CARGO",
+          "version": "1.3.0",
+          "githubOrg": "murarth",
+          "githubRepo": "assert_matches",
+          "githubUrl": "https://github.com/murarth/assert_matches",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1.0.71",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubCommit": "8b4fc43429fd9a034649e0f919c646ec6626c4c7",
+          "githubTag": "1.0.71",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anyhow-1.0.71/src/macros.rs"
+        },
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4.3.0",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubCommit": "9c3dc187cb47dd437cdb6fee045e42dc8146e9d6",
+          "githubTag": "v4.3.0",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.3.0/src/lib.rs"
+        }
       ]
     }
   ],
