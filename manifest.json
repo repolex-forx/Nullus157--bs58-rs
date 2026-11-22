@@ -132,7 +132,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.3.0/src/lib.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd/chunk-001.nq.gz",
+      "dep": "dep/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
