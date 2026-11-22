@@ -1,0 +1,7 @@
+[2026-11-22T10:41:30Z] === AST ITERATION 1 START | repo=Nullus157/bs58-rs sha=2b0d73b9 ===
+[2026-11-22T10:41:30Z] [iter=1] PHASE START: ast repo=Nullus157/bs58-rs sha=2b0d73b9
+[2026-11-22T10:41:30Z] [iter=1] Building AST aggregate chunks
+[2026-11-22T10:41:37Z] [iter=1] AST chunks built count=1 triples=75207
+[2026-11-22T10:41:37Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/2b0d73b9955f6a745f9b6fbb387bba2b96ea89fd/.complete
+[2026-11-22T10:41:37Z] [iter=1] PHASE END: ast elapsed_s=7 elapsed_min=0.1
+[2026-11-22T10:41:37Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
